@@ -24,6 +24,7 @@ public class ExtentReport {
         extent = new ExtentReports();
         extent.attachReporter(reporter);
         extent.setSystemInfo("Tester", "NHV");
+        System.out.println("Lam sao");
 
     }
 
@@ -37,6 +38,7 @@ public class ExtentReport {
         driver.get("https://fb.com");
         System.out.println(driver.getTitle());
         System.out.println("Lay dc nha");
+        System.out.println("Lam sao");
         driver.close();
         test.fail("Result do not match");
         extent.flush();
