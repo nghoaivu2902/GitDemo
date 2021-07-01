@@ -36,6 +36,7 @@ public class ExtentReport {
         WebDriver driver = new ChromeDriver();
         driver.get("https://fb.com");
         System.out.println(driver.getTitle());
+        System.out.println("Lay dc nha");
         driver.close();
         test.fail("Result do not match");
         extent.flush();
