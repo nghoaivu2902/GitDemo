@@ -25,6 +25,10 @@ public class ExtentReport {
         extent.attachReporter(reporter);
         extent.setSystemInfo("Tester", "NHV");
         System.out.println("Lam sao");
+        System.out.println("Lam sao");
+        System.out.println("Lam sao");
+        System.out.println("Lam sao");
+        System.out.println("Lam sao");
 
     }
 
@@ -42,5 +46,11 @@ public class ExtentReport {
         driver.close();
         test.fail("Result do not match");
         extent.flush();
+        System.out.println("Lam sao");
+        System.out.println("Lam sao");
+        System.out.println("Lam sao");
+        System.out.println("Lam sao");
+
+
     }
 }
